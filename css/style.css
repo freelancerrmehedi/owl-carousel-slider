@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open-Sans', sans-serif;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+h2, h3{
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+#testimonial{
+    background: #F63854;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.section-padding{
+    padding: 60px 0px;
+}
+
+.img-thamb {
+    text-align: center;
+    display: inline-block;
+}
+.img-thamb img {
+    width: inherit !important;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.testimonial-item {
+  text-align: center;
+}
+.info h2, h3, a {
+  color: #333;
+}
+.info h2, h3{
+    margin: 0px;
+}
+.info{
+    margin-top: 10px;
+}
+
+.item {
+  background-color: white;
+  border-radius: 4px;
+  padding: 50px 26px 32px;
+}
+.description p {
+  color: #333;
+}
+
+.star-icons span i{
+    color: #F63854;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #F63854;
+    border: 2px solid white;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: white;
+    border: 2px solid white;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 20px;
+}
+
